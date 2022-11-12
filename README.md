@@ -12,8 +12,8 @@ or this:
 
 ```py
 cont = Container()
-cont.setItem('jugs', 62)
-cont.setItem('eggs', 11)
+cont['jugs'] = 62
+cont['eggs'] = 11
 ...
 ```
 
